@@ -15,7 +15,6 @@ Ext.define("MatchaOverSencha.view.main.Main", {
 
     "MatchaOverSencha.view.main.MainController",
     "MatchaOverSencha.view.main.MainModel",
-    "MatchaOverSencha.view.main.PersonnelList",
     "MatchaOverSencha.view.main.UsersList",
   ],
 
@@ -77,30 +76,13 @@ Ext.define("MatchaOverSencha.view.main.Main", {
 
   items: [
     {
-      title: "Home",
-      iconCls: "fa-home",
-      // The following grid shares a store with the classic version's grid as well!
-      items: [
-        {
-          xtype: "personnelList",
-        },
-      ],
-    },
-    {
       title: "Users",
-      iconCls: "fa-user",
+      iconCls: "fa-users",
       items: [
         {
           xtype: "usersList",
         },
       ],
-    },
-    {
-      title: "Groups",
-      iconCls: "fa-users",
-      bind: {
-        html: "{loremIpsum}",
-      },
     },
     {
       title: "Settings",
