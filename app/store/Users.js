@@ -7,20 +7,18 @@ Ext.define("MatchaOverSencha.store.Users", {
 
   data: [
     {
-      firstName: "Seth",
-      age: "34",
+      name: "Big Mac (Local)",
+      email: "big.mac@test.com",
+      phoneNumber: "7781111111",
+      gender: "male",
+      age: 34,
     },
     {
-      firstName: "Scott",
-      age: "72",
-    },
-    {
-      firstName: "Gary",
-      age: "19",
-    },
-    {
-      firstName: "Capybara",
-      age: "208",
+      name: "Little Mac (Local)",
+      email: "little.mac@test.com",
+      phoneNumber: "7781111112",
+      gender: "female",
+      age: 33,
     },
   ],
 });
