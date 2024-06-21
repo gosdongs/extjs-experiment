@@ -21,4 +21,15 @@ Ext.define("MatchaOverSencha.store.Users", {
       age: 33,
     },
   ],
+
+  proxy: {
+    type: "ajax",
+    url: "http://localhost:3000/users",
+    reader: {
+      type: "json",
+      rootProperty: "data",
+    },
+  },
+
+  autoLoad: true,
 });
